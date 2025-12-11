@@ -20,7 +20,7 @@ const NEZHA_KEY = process.env.NEZHA_KEY || '';              // 哪吒v1的NZ_CLI
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'nbtesttunnel.nbtest.de5.net';          // 固定隧道域名,留空即启用临时隧道 XXXX需要改
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiZjBiMTA2ODlkMjgwNTUyNjQ5NWRlMmI4ODc5YWUwNTkiLCJ0IjoiM2Y0ZDBlYmUtN2I0ZC00M2IwLThlNmYtZjc0NDdjZDE1MWQ2IiwicyI6Ik9ERTVOamxqWkRBdE9EWmhaUzAwTm1JMExXRXlOekl0WkdReFpUVTNaR1F4TXpFeCJ9';              // 固定隧道密钥json或token,留空即启用临时隧道,json获取地址：https://json.zone.id
 const ARGO_PORT = process.env.ARGO_PORT || 8001;            // 固定隧道端口,使用token需在cloudflare后台设置和这里一致
-const CFIP = process.env.CFIP || 'cdns.doon.eu.org';        // 节点优选域名或优选ip  
+const CFIP = process.env.CFIP || 'cf.877774.xyz';        // 节点优选域名或优选ip  
 const CFPORT = process.env.CFPORT || 443;                   // 节点优选域名或优选ip对应的端口
 const NAME = process.env.NAME || 'nbtest';                        // 节点名称
 
